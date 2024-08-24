@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to right, #f8cdda, #1d2b64);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.card-title {
+    color: #1d2b64;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#connectWallet {
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+}
+
+#connectWallet:hover {
+    background-color: #0056b3;
+}
+
+#blockchainSelect, #wagerAmount {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#heads, #tails {
+    width: 130px;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#heads:hover, #tails:hover {
+    transform: scale(1.1);
+    background-color: #007bff;
+    color: white;
+}
+
+#flipCoin {
+    border-radius: 50px;
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    background-color: #28a745;
+    color: white;
+}
+
+#flipCoin:hover {
+    background-color: #218838;
+}
+
+.alert {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #17a2b8;
+    color: white;
+}
